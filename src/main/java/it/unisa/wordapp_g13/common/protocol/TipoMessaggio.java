@@ -22,7 +22,9 @@ public enum TipoMessaggio {
     DIFFICULTY_LOCK_RESP,
 
     START_GAME_REQUEST,
-
+    
+    CANCEL_GAME_REQUEST,
+    
     GAME_STARTED,
 
     GUESS_ATTEMPT,
@@ -52,6 +54,6 @@ public enum TipoMessaggio {
     RESET_PASSWORD_REQUEST,
 
     RESET_PASSWORD_RESPONSE,
-
+    
     ERROR
 }
